@@ -1,6 +1,11 @@
+# Solutions
+See examples of solutions by industry
+
+URL: https://xmpro.com/solutions-library
+
 # XMPro Solutions
 
-# See how XMPro can help your business unlock it’s full operational potential. Explore by use case, technology or industry.
+# See how XMPro can help your business unlock it’s full operational potential. Explore byuse case,technologyorindustry.
 
 <img src="https://xmpro.com/wp-content/uploads/2023/05/Real-Time-Events-Isometric.png" width="856" height="826">
 

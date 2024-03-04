@@ -28,7 +28,7 @@ def scrape_page_content(url):
         print(f"Error occurred while fetching content from {url}: {e}")
         return None
 
-def save_to_md(content, page_title, folder_path):
+def save_to_md(content, page_title, page_url, folder_path):
     try:
         # Remove special characters from the title
         title = re.sub(r'[^\w\s-]', '', page_title)
@@ -43,10 +43,15 @@ def save_to_md(content, page_title, folder_path):
         # Replace invalid characters in the filename
         filename = filename.replace("\n", "").replace("\xa0", " ")
 
-        # Replace spaces with underscores in the filename
-        filename = filename.replace(" ", "_")
+        # Create the directory if it doesn't exist
+        os.makedirs(folder_path, exist_ok=True)
 
         with open(filename, 'w', encoding='utf-8') as file:
+            # Write the title
+            file.write(f"# {page_title.strip()}\n\n")
+            # Write the URL
+            file.write(f"URL: {page_url}\n\n")
+            # Write the content
             file.write(content)
         print(f"Content saved to {filename}")
     except Exception as e:
@@ -71,10 +76,15 @@ def scrape_xmpro_platform_pages():
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)
                 if content_div:
-                    folder_name = "XMPro_Platform"
-                    folder_path = "XMPro_Platform"
-                    os.makedirs(folder_path, exist_ok=True)
+                    folder_name = "XMPro Platform"
+                    folder_path = "XMPro Platform"
                     page_title = link.text.strip()
+                    if not page_title:
+                        h1_heading = content_div.find('h1')
+                        if h1_heading:
+                            page_title = h1_heading.get_text(strip=True)
+                        else:
+                            page_title = "Untitled"
                     content_md = ""
                     for element in content_div.find_all(["p", "h1", "h2", "h3", "h4", "img"]):
                         if element.name == "img":
@@ -87,12 +97,13 @@ def scrape_xmpro_platform_pages():
                         else:
                             if element.name.startswith("h"):
                                 heading_level = int(element.name[1])
-                                content_md += f"{'#' * heading_level} {element.get_text().strip()}\n\n"
+                                content_md += f"{'#' * heading_level} {element.get_text(strip=True)}\n\n"
                             else:
-                                content_md += f"{element.get_text().strip()}\n\n"
-                    save_to_md(content_md, page_title, folder_path)
+                                content_md += f"{element.get_text(strip=True)}\n\n"
+                    save_to_md(content_md, page_title, page_url, folder_path)
                 else:
                     print(f"Failed to scrape the page: {page_url}")
+                    print(f"Page URL with missing title: {page_url}")  # Print the URL with missing title
                 # Introduce a delay of 1 second before scraping the next page
                 sleep(1)
         else:

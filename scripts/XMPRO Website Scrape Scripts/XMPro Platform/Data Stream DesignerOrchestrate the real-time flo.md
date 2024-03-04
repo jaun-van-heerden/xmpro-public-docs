@@ -1,3 +1,8 @@
+# Data Stream Designer
+Orchestrate the real-time flow of data
+
+URL: https://xmpro.com/data-stream-designer
+
 <img src="https://xmpro.com/wp-content/uploads/2023/07/DS_300-e1706055432930.png" width="283" height="283">
 
 # XMPro Data Stream Designer
@@ -16,91 +21,91 @@ XMPRO’s Data Stream Designer lets you visually design the data flow and orches
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/4411553-300x300.png" width="300" height="300">
 
-# 5-10% Reduced
+# 5-10%Reduced
 
 ### Maintenance Costs
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Equipment-Uptime-300x300.png" width="300" height="300">
 
-# 10-20% Increased
+# 10-20%Increased
 
 ### Equipment Uptime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Maintenance-Planning-Time-300x300.png" width="300" height="300">
 
-# 20-50% Decreased
+# 20-50%Decreased
 
 ### Maintenance Planning Time
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/MTTR-Icon-300x300.png" width="300" height="300">
 
-# 40-60% Reduced
+# 40-60%Reduced
 
 ### MTTR (mean-time-to-repair)
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Asset-Lifespan-300x300.png" width="300" height="300">
 
-# 10-30% Increased
+# 10-30%Increased
 
 ### Asset Service Life
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Amortization-300x300.png" width="300" height="300">
 
-# 45% Increased
+# 45%Increased
 
 ### Amortization in 1 year
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Caron-Emissions-Icon-300x300.png" width="300" height="300">
 
-# 10-25% Reduced
+# 10-25%Reduced
 
 ### Carbon Emissions
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/ESG-Investment-Icon-300x300.png" width="300" height="300">
 
-# 1.5 - 2  X ROI
+# 1.5 - 2X ROI
 
 ### On ESG Investment
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Waste-Reduction-Icon-300x300.png" width="300" height="300">
 
-# 25-40% Reduction
+# 25-40%Reduction
 
 ### In Waste
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Production-Downtime-300x300.png" width="300" height="300">
 
-# 35-45% Reduced
+# 35-45%Reduced
 
 ### Production Downtime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Increased-Production-300x300.png" width="300" height="300">
 
-# 20-30% Increase
+# 20-30%Increase
 
 ### In Production
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Bottom-Line-Icon-300x300.png" width="300" height="300">
 
-# 10-15% Increase
+# 10-15%Increase
 
 ### In Bottom Line
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Product-Defects-Icon-300x300.jpg" width="300" height="300">
 
-# 50-70% Reduced
+# 50-70%Reduced
 
 ### Product Defects
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/First-Pass-Yield-Icon-300x300.png" width="300" height="300">
 
-# 15-25% Increase
+# 15-25%Increase
 
 ### In First-Pass-Yield
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Alert-Icons-SPC-300x300.png" width="300" height="300">
 
-# 20-40% Reduction
+# 20-40%Reduction
 
 ### In SPC Alerts
 
@@ -110,7 +115,7 @@ XMPRO’s Data Stream Designer lets you visually design the data flow and orches
 
 ## Visually Orchestrate The Flow of Data
 
-## No-Code Composability  >>  Simplify Dataflow
+## No-Code Composability>>  Simplify Dataflow
 
 XMPro’s Data Stream Designer is a user friendly tool for designing data flow in real-time applications. Its drag & drop system facilitates the integration of real-time data from various sources, allowing the addition of contextual data from systems like EAM. Users can also employ native and third-party analytics, and act based on specific data events.
 
@@ -120,7 +125,7 @@ XMPro’s Data Stream Designer is a user friendly tool for designing data flow i
 
 Most companies spend 50% of digital transformation project costs on integration.
 
-With XMPro’s growing library of 150+ pre-built connectors for enterprise, industrial and emerging technologies, you don’t have to.​
+With XMPro’s growinglibrary of 150+ pre-built connectorsfor enterprise, industrial and emerging technologies, you don’t have to.​
 
 <img src="https://xmpro.com/wp-content/uploads/2020/03/Azure-300x300@2x.jpg" width="600" height="600">
 
@@ -182,24 +187,23 @@ Add data wrangling steps into your data stream, like replacing missing values an
 
 ### Functions
 
-Perform mathematical and statistical operations like Fast Fourier Transformations on the data being ingested.​
+Perform mathematical and statisticaloperations like Fast FourierTransformations on the data beingingested.​
 
 <img src="https://xmpro.com/wp-content/uploads/2023/08/AI-Machine-Learning-Icon-300x300.png" width="300" height="300">
 
 ### AI & Machine Learning
 
-Add predictive capability to your apps with anomaly detection, R scripts and advanced machine learning algorithms.​
+Add predictive capability to your appswith anomaly detection, R scripts andadvanced machine learningalgorithms.​
 
 <img src="https://xmpro.com/wp-content/uploads/2023/08/Action-Agents-Icon-300x300.png" width="300" height="300">
 
 ### Action Agents
 
-Trigger actions in 3rd party systems, like sending SMS alerts or creating work orders in SAP.​
+Trigger actions in 3rd party systems,like sending SMS alerts or creatingwork orders in SAP.​
 
 ## Transform & Clean Your Data
 
-## Powerful Data wrangling  >>
-Clean Your Data
+## Powerful Data wrangling>>Clean Your Data
 
 Real-world data isn’t perfect. It needs to be cleaned and transformed before you can use it. The Data Stream Designer makes it easy to add data wrangling steps into your data stream, like replacing missing values and converting data into different types.
 
@@ -243,8 +247,7 @@ XMPro’s transformation agents simplify data preparation, ensuring data quality
 
 <img src="https://xmpro.com/wp-content/uploads/2023/08/Regression-300x125.png" width="300" height="125">
 
-## Intelligent  >>
-Apply AI and Analytics in Real-Time
+## Intelligent>>Apply AI and Analytics in Real-Time
 
 You can use a range of analytics functions to add intelligence to your XMPRO data streams. Run algorithms for fast fourier transformations, anomaly detection and custom R scripts on your real-time data. Or use advanced machine learning algorithms to add predictive capability to your apps.
 

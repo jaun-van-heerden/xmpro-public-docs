@@ -1,150 +1,177 @@
-<img src="https://xmpro.com/wp-content/uploads/2023/12/Upscaled-AD-Icon-e1706055516257-1024x1024.png" width="1020" height="1020">
+# Prescriptive Recommendations
+Trigger rule-based alerts with instructions
 
-# XMPro App Designer
+URL: https://xmpro.com/prescriptive-recommendations
 
-### Build Real-Time Event Intelligence With Our Drag & Drop UI Builder.
+<img src="https://xmpro.com/wp-content/uploads/2023/07/RE_300px.png" width="300" height="301">
 
-### Build Interactive Dashboards To Run Your Operations In Real-Time
+# XMPro Recommendation Manager
+
+### Close the loop in real-time with automated rules-based  event response.
+
+### Take Your Operations From Reactive to Prescriptive
 
 ### Create Intelligent Digital Twins That Predict Outcomes
 
-### Create A Common Operating Picture Of Your Operations.
+### Harness AI-Powered Decision Making On An Operational, Tactical & Strategic Level.
 
-The XMPro App Designer is a no code event intelligence application development platform. It enables Subject Matter Experts (SMEs) to create and deploy real-time intelligent digital twins without programming. This means that SMEs can build apps in days or weeks without further overloading IT, enabling your organization to accelerate and scale your digital transformation.
+XMPRO Recommendations are advanced event alerts that combine alerts, actions, and monitoring. You can create recommendations based on business rules and AI logic to recommend the best next actions to take when a certain event happens. You can also monitor the actions against the outcomes they create to continuously improve your decision-making.
 
-
-
-<img src="https://xmpro.com/wp-content/uploads/2023/12/V2-App-Designer_Pop-up-Software-Tiles-XMPro-1024x666.png" width="1020" height="663">
+<img src="https://xmpro.com/wp-content/uploads/2023/11/V2_Pop-Up-Recommendation-Manager-1024x666.png" width="1020" height="663">
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/4411553-300x300.png" width="300" height="300">
 
-# 5-10% Reduced
+# 5-10%Reduced
 
 ### Maintenance Costs
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Equipment-Uptime-300x300.png" width="300" height="300">
 
-# 10-20% Increased
+# 10-20%Increased
 
 ### Equipment Uptime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Maintenance-Planning-Time-300x300.png" width="300" height="300">
 
-# 20-50% Decreased
+# 20-50%Decreased
 
 ### Maintenance Planning Time
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/MTTR-Icon-300x300.png" width="300" height="300">
 
-# 40-60% Reduced
+# 40-60%Reduced
 
 ### MTTR (mean-time-to-repair)
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Asset-Lifespan-300x300.png" width="300" height="300">
 
-# 10-30% Increased
+# 10-30%Increased
 
 ### Asset Service Life
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Amortization-300x300.png" width="300" height="300">
 
-# 45% Increased
+# 45%Increased
 
 ### Amortization in 1 year
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Caron-Emissions-Icon-300x300.png" width="300" height="300">
 
-# 10-25% Reduced
+# 10-25%Reduced
 
 ### Carbon Emissions
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/ESG-Investment-Icon-300x300.png" width="300" height="300">
 
-# 1.5 - 2  X ROI
+# 1.5 - 2X ROI
 
 ### On ESG Investment
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Waste-Reduction-Icon-300x300.png" width="300" height="300">
 
-# 25-40% Reduction
+# 25-40%Reduction
 
 ### In Waste
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Production-Downtime-300x300.png" width="300" height="300">
 
-# 35-45% Reduced
+# 35-45%Reduced
 
 ### Production Downtime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Increased-Production-300x300.png" width="300" height="300">
 
-# 20-30% Increase
+# 20-30%Increase
 
 ### In Production
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Bottom-Line-Icon-300x300.png" width="300" height="300">
 
-# 10-15% Increase
+# 10-15%Increase
 
 ### In Bottom Line
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Product-Defects-Icon-300x300.jpg" width="300" height="300">
 
-# 50-70% Reduced
+# 50-70%Reduced
 
 ### Product Defects
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/First-Pass-Yield-Icon-300x300.png" width="300" height="300">
 
-# 15-25% Increase
+# 15-25%Increase
 
 ### In First-Pass-Yield
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Alert-Icons-SPC-300x300.png" width="300" height="300">
 
-# 20-40% Reduction
+# 20-40%Reduction
 
 ### In SPC Alerts
 
-## Effortlessly Visualize Your Data & Action Predictive Response In Real-Time
+# Trigger Prescriptive Recommendations When Critical Events Happen
 
 ### Imagine a world where your digital twin is not just a passive repository of data but an active, always-on system that continuously monitors and interacts with the environment and assets.
 
-## Design Complex Pages with Drag & Drop
+## Create Recommendations with a Visual Rule Builder
 
-## No-Code App Builder >> Drag & Drop UI For Digital Twins
+## Action Automated>> Logic Based Rule Building
 
-XMPRO’s visual page designer enables you to create custom page designs by dragging blocks from the toolbox onto your page, configuring their properties and connecting to your data sources, all without having to code. You can customize the styling for each block and save a group of blocks as a widget, which can then be reused across your apps.
+Empower your expert operators, foremen and maintenance planners to create recommendations that codify their expertise. Our visual rule builder makes it easy for business users to create and maintain recommendations without any coding knowledge. Users can set up thresholds to trigger specific recommendations when an important event occurs.
 
-## XMPro App Designer includes a toolbox of 40 configurable blocks to use in your layouts, including blocks for:
+## Give Your Team Real-Time Decision Support
 
-### Visualizations
+#### When an event happens that triggers a recommendation, your team will see a new recommendation appear on their XMPRO eventboard. When they drill down, they’ll see:
 
-<img src="https://xmpro.com/wp-content/uploads/2023/12/Builder-Blocks-Visualizations.png" width="753" height="715">
+### Triage Instructions
 
-### Layout
+Custom instructions created by your most knowledgeable team members
 
-<img src="https://xmpro.com/wp-content/uploads/2023/12/V2-Layout-App-Builder-Blocks-Layout.png" width="753" height="715">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Triage-Instructions-Pop-Up.png" width="1077" height="700">
 
-### Basic:
+### Custom Forms
 
-<img src="https://xmpro.com/wp-content/uploads/2023/12/Basic-Builder-Blocks_.png" width="753" height="715">
+Design tailored forms for tasks such as work order generation and maintenance scheduling, among others. These customizable forms are engineered to seamlessly interact with broader ERP and various OT systems, ensuring a fully integrated and cohesive operational experience.
 
-<img src="https://xmpro.com/wp-content/uploads/2022/12/2022-10-17_10-51-14-1536x864.png" width="1536" height="864">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Work-Order-RM-Pop-Up.png" width="1077" height="700">
 
-## Integrated >> Combine Real-Time & Static Data Sources
+### Resources
 
-The XMPRO App Designer integrates real-time data from XMPRO Data Streams with other business, operational or 3rd party data sources. Each block in your page designs can be connected to a different data source, enabling you to build apps that provide your team with comprehensive decision support from multiple systems. After publishing your app, your pages will update with live data.
+Resources to help them respond effectively, like equipment specifications and video links
 
-## Scalable >> Scale Your Digital Transformation
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Resources_Pop-up-Software-Tiles-XMPro.png" width="1077" height="700">
 
-Your subject matter experts understand the business problems they want to solve, and with XMPRO they don’t need to be developers or designers to create apps that provide real-time intelligence.
+### Comments
 
-The XMPRO App Designer empowers SMEs to use their expert knowledge to build a portfolio of real-time event intelligence apps. These apps can then be deployed across different asset types, plants, operational areas and business units to scale your digital transformation without overloading your IT team.
+A comment section to collaborate with colleagues, ask questions and share their expertise
 
-<img src="https://xmpro.com/wp-content/uploads/2022/12/2022-10-17_10-49-39-1536x864.png" width="1536" height="864">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Discussion_Pop-up-Software-Tiles-XMPro.png" width="1077" height="700">
 
-## AI-Powered >> Never Fly Solo With XMPro Co-Pilot
+### Contextual Data
+
+Data from other business systems, like open work orders in your ERP or EAM system
+
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Contextual-DataPop-up-Software-Tiles-XMPro.png" width="1077" height="700">
+
+<img src="https://xmpro.com/wp-content/uploads/2022/12/2022-10-17_15-16-46-1536x864.png" width="1536" height="864">
+
+## Real-Time Visibility>> Actively Monitor Actions and Their Outcomes
+
+We understand that you don’t just need more alerts. You need the tools to close the loop and ensure your team is responding to critical events before the opportunity expires.
+
+With XMPRO, you can see the status of all current recommendations and identify bottlenecks before it’s too late. You can also monitor the actions your team performed against the outcomes they created to improve future decision-making.
+
+## Versatility>> Manage Your Recommendations Anywhere
+
+Whether your team works underground or out in the field, they can use XMPRO’s mobile app to get access to the real-time decision support they need to respond to issues like equipment failure, supply chain bottlenecks and safety incidents.
+
+Available for iOS and Android devices.
+
+<img src="https://xmpro.com/wp-content/uploads/2020/04/XMPRO-Mobile-App-1536x1031.png" width="1536" height="1031">
+
+<img src="https://xmpro.com/wp-content/uploads/2021/07/Mobile.png" width="1433" height="831">
+
+## AI-Powered>> Never Fly Solo With XMPro Co-Pilot
 
 Step into an era where AI isn’t just smart—it’s personalized and secure with XMPro Co-Pilot. This isn’t just any AI tool; it’s your bespoke business ally, trained securely on your in-house data. Imagine encapsulating decades of your team’s expertise—like the invaluable insights from employees with 40+ years on the plant floor—into a powerful digital form. That’s what XMPro Co-Pilot does. It transforms your unique data and experience into a one-of-a-kind intellectual property, creating an unmatched resource for your business.
 
@@ -160,9 +187,7 @@ Step into an era where AI isn’t just smart—it’s personalized and secure wi
 
 # How It Works
 
-XMPro App Designer is an integral part of our Intelligent Digital Twin Suite, expertly crafted to facilitate the visual orchestration of your application workflows. It emphasizes on efficient integration and customization of application patterns, ensuring a streamlined and effective user experience.
-
-Explore this demonstration to discover how XMPro App Designer can streamline application development and elevate the efficiency of real-time applications within your organization.
+Engage with this demonstration to learn how XMPro Recommendation Manager can refine the recommendation process and enhance the effectiveness of decision-making in real-time scenarios across your organization.
 
 TALK TO A PRODUCT EXPERT
 
@@ -186,9 +211,7 @@ AI-powered Digital Twins used for predictive maintenance of underground conveyor
 
 AI-powered Digital Twins are effectively used for real-time detection of pipe bursts in water distribution systems, where the system processes pressure and flow sensor data, predicts future values using artificial neural networks (ANN), and compares these with actual observations to gauge the probability of a failure event, thereby raising relevant alarms.
 
-# Take A Tour of XMPro App Designer
-
-## Unlock your data’s potential with XMPro App Designer.
+## Unlock your data’s potential with XMPro Recommendation Manager.
 
 ### 
 
