@@ -44,22 +44,26 @@ def scrape_page(url, folder_path):
 
                 if portfolio_inner_div:
                     # Find all content elements within the portfolio-inner div
-                    content_elements = portfolio_inner_div.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "img"])
+                    content_elements = portfolio_inner_div.find_all(["p", "h1", "h2", "h3", "h4", "img"])
 
                     # Initialize markdown content
                     markdown_content = ""
 
                     # Append content to the markdown content preserving order
                     for element in content_elements:
-                        if element.name.startswith("h"):  # Heading elements
-                            heading_level = int(element.name[1])
-                            markdown_content += f"{'#' * heading_level} {element.text.strip()}\n\n"
-                        elif element.name == "img":  # Image elements
-                            if element.has_attr("src"):  # Check if "src" attribute exists
-                                image_url = element["src"]
-                                markdown_content += f"![Image]({image_url})\n\n"
-                        else:  # Paragraph elements
-                            markdown_content += f"{element.get_text().strip()}\n\n"
+                        if element.name == "img":
+                            prop = "src"
+                            if "data-src" in element.attrs:
+                                prop = "data-src"
+                            w = element.get("width")
+                            h = element.get("height")
+                            markdown_content += f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n'
+                        else:
+                            if element.name.startswith("h"):
+                                heading_level = int(element.name[1])
+                                markdown_content += f"{'#' * heading_level} {element.get_text(strip=True)}\n\n"
+                            else:
+                                markdown_content += f"{element.get_text(strip=True)}\n\n"
 
                     # Save content to a Markdown file
                     save_to_md(title, markdown_content, url, folder_path)

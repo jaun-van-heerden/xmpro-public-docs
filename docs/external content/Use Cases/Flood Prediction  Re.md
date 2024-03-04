@@ -14,13 +14,13 @@ Water utilities face several challenges in flood management:
 
 
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1_Asset-Overview-Flood-Warning-View-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1_Water-Utilities-Asset-Overview-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1_Asset-Drilldown-Pumps-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20528%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="528">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1_Asset-Analysis-Pump-Health-1024x530.jpg" width="1020" height="528">
 
 ### The Solution: XMPro’s Flood Prediction and Response
 
@@ -40,7 +40,7 @@ Offering tools for timely public communication, including automated alerts and u
 
 Customizable dashboards display key flood risk data and response plans, alongside comprehensive reporting features for post-event analysis and regulatory compliance.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1_Asset-Overview-Flood-Warning-View.jpg" width="1920" height="992">
 
 Figure 1. Real-Time Flood Prediction and Response Dashboard for Water Utilities
 
@@ -78,55 +78,55 @@ This Real-Time Flood Prediction and Response Dashboard is designed to provide wa
 
 XMPro’s Intelligent Digital Twin Suite (iDTS) offers several unique capabilities that can effectively address the challenges of flood prediction and response in water utilities. Here’s how XMPro iDTS can be particularly beneficial for this use case:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2022/07/Digital-Twin-Simulation.png" width="256" height="256">
 
 ### Digital Twin for Water Utility Infrastructure:
 
 XMPro iDTS can create digital twins of the entire water utility infrastructure, including treatment plants, pump stations, reservoirs, and pipe networks. These digital twins provide a virtual representation of the physical assets, enabling real-time monitoring and scenario analysis for flood impacts.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Data-Wrangling.png" width="256" height="256">
 
 ### Integration with Environmental Data Sources:
 
 The suite can integrate diverse environmental data sources, including meteorological, hydrological, and geographical data, to provide a comprehensive view of potential flood scenarios. This integration is crucial for accurate flood prediction and planning.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Predictive-Analytics.png" width="256" height="256">
 
 ### Predictive Analytics for Flood Forecasting:
 
 Utilizing advanced machine learning algorithms, XMPro iDTS can analyze historical and real-time data to predict flood events. This predictive capability allows utilities to proactively prepare for and respond to flood risks.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Maintenance-Schedule.png" width="256" height="256">
 
 ### Automated Response Protocols:
 
 The suite can automate response protocols based on predictive insights, such as initiating flood prevention measures, adjusting operational parameters, and implementing safety protocols.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Real-Time-Alert.png" width="256" height="256">
 
 ### Real-Time Monitoring and Alerting:
 
 XMPro iDTS provides real-time monitoring of environmental conditions and water utility assets. It can generate instant alerts for impending flood risks, enabling quick decision-making and response coordination.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Customized-Dashboards.png" width="256" height="256">
 
 ### Customizable Dashboards for Enhanced Decision-Making:
 
 XMPro iDTS includes customizable dashboards that display key data on flood risks and asset conditions. These dashboards can be tailored to the specific needs of water utility operators, providing actionable insights for flood management.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Scalability.png" width="256" height="256">
 
 ### Scalability and Flexibility – Start Small, Scale Fast:
 
 XMPro iDTS is scalable and flexible, capable of adapting to projects of all sizes, from single asset solutions, to comprehensive Common Operating Pictures of multiple asset classes.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Safety-Hat.png" width="256" height="256">
 
 ### Enhanced Safety and Operational Efficiency:
 
 XMPro iDTS can include tools for public communication, ensuring timely alerts and updates to residents and businesses in affected areas, enhancing public safety and trust.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Blueprint.png" width="256" height="256">
 
 ### Quick Time To Value – XMPro Blueprints
 
@@ -136,7 +136,7 @@ In summary, XMPro iDTS addresses the flood prediction and response use case by p
 
 # Not Sure How To Get Started?
 
-### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects with Over 10x ROI in only a matter of weeks!
+### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects withOver 10x ROIin only a matter of weeks!
 
 ### Request a free online consultation for your business problem.
 

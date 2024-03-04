@@ -10,11 +10,11 @@ Water utilities face significant challenges in maintaining the efficiency and re
 
 
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2022/08/Pump-Station-Overview-OEE-1024x529.png" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2022/08/Pump-OEE-1024x529.png" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2022/08/Pump-Station-Overview-1024x529.png" width="1020" height="527">
 
 ### The Solution
 

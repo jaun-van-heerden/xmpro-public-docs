@@ -8,9 +8,9 @@ URL: https://xmpro.com/solutions-library/case-studies,mining,use-cases/long-conv
 
 Long conveyor systems are crucial in various industries for efficient material handling. However, they face several challenges:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20574%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="574">
+<img src="https://xmpro.com/wp-content/uploads/2023/07/Mining-Case-Study-1024x576.jpg" width="1020" height="574">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20515%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="515">
+<img src="https://xmpro.com/wp-content/uploads/2023/08/Case-Study-After-1024x517.jpg" width="1020" height="515">
 
 ### The Solution
 
@@ -64,9 +64,9 @@ In summary, XMPro iDTS addresses the unique challenges in long conveyor monitori
 
 In order to maximize underground mining operations, the underground conveyor system, a frequent cause of unplanned downtime, needed to reduce its downtime by 30% as an initial target for a predictive maintenance solution
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20719%20467%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="719" height="467">
+<img src="https://xmpro.com/wp-content/uploads/2023/08/Case-Study-Image-1.jpg" width="719" height="467">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20514%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="514">
+<img src="https://xmpro.com/wp-content/uploads/2023/08/Case-Study-Before-1024x516.jpg" width="1020" height="514">
 
 ## XMPRO SOLUTION
 
@@ -76,5 +76,5 @@ XMPro actively monitors 52 conveyors (spanning over 80+km) in real time, predict
 
 Within five months, the solution identified a potential saving of 184 hours of borer downtime, equating to 44k product tonnes. Exceeding the target, the solution achieved over a 80% reduction in downtime for fluid coupling failures. It now monitors multiple asset types across several mines
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20515%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="515">
+<img src="https://xmpro.com/wp-content/uploads/2023/08/Case-Study-After-1024x517.jpg" width="1020" height="515">
 

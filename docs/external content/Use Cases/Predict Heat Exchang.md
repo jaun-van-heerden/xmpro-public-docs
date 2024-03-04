@@ -16,7 +16,7 @@ Key Features
 
 Benefits:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201286%20702%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1286" height="702">
+<img src="https://xmpro.com/wp-content/uploads/2022/08/MicrosoftTeams-image-28.png" width="1286" height="702">
 
 ## Why XMPro iDTS?
 

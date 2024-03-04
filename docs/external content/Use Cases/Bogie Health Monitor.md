@@ -12,11 +12,11 @@ Maintaining the health of train bogies is crucial for ensuring the safety and ef
 
 Rail operators face several challenges in bogie maintenance:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V1_Rail-Asset-Overview-Mockup-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Asset-Drilldown-Trains-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20528%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="528">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V03_BogieHealth_Asset-Analysis-Train-T012-1024x530.jpg" width="1020" height="528">
 
 ### The Solution: XMPro Wheel and Track Wear Monitoring
 
@@ -32,7 +32,7 @@ Using data-driven insights to optimize maintenance schedules, shifting from fixe
 
 Providing real-time alerts to maintenance teams about potential issues.Generating detailed reports on wheel and track conditions for maintenance planning and regulatory compliance.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V1_Rail-Asset-Overview-Mockup.jpg" width="1920" height="992">
 
 Figure 1. Real-Time Rail Asset Overview Dashboard
 
@@ -46,7 +46,7 @@ Additionally, the dashboard includes a detailed graph that tracks maintenance re
 
 Each section of the dashboard is designed for deeper exploration. Users can drill down into specific asset and recommendation details, gaining granular insights and enabling targeted actions based on the system’s recommendations. This level of detail ensures that users can make informed decisions quickly and maintain optimal operational efficiency.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Asset-Drilldown-Trains.jpg" width="1920" height="992">
 
 Figure 2. Asset Drill Down View – Trains
 
@@ -56,7 +56,7 @@ The specific asset view for trains provides users with a comprehensive and infor
 
 This dashboard is designed for ease of use, allowing quick access to vital information and efficient management of train assets.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20993%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="993">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V03_BogieHealth_Asset-Analysis-Train-T012.jpg" width="1920" height="993">
 
 Figure 3. Asset Analysis View – Bogie B001
 
@@ -64,15 +64,15 @@ Figure 3. Asset Analysis View – Bogie B001
 
 The Asset Analysis View provides in-depth insights into specific bogies, illustrated here with a focus on a particular bogie, identified as Bogie B001.
 
-Comprehensive Bogie Health Metrics: This section displays vital health indicators for Bogie B001, including vibration levels, temperature readings, and overall condition assessments. It contrasts real-time health data with predictive analytics to forecast the remaining useful life of the bogie, enhancing maintenance planning.
+Comprehensive Bogie Health Metrics:This section displays vital health indicators for Bogie B001, including vibration levels, temperature readings, and overall condition assessments. It contrasts real-time health data with predictive analytics to forecast the remaining useful life of the bogie, enhancing maintenance planning.
 
-Interactive 2D and 3D Bogie Models: The view features detailed 2D and 3D models of Bogie B001, offering capabilities to ‘explode’ the view for a closer examination of individual components. Critical areas, flagged by predictive analysis for potential wear or failure, are highlighted in the model for quick identification. For example, areas showing abnormal wear patterns are marked in distinct colors.
+Interactive 2D and 3D Bogie Models:The view features detailed 2D and 3D models of Bogie B001, offering capabilities to ‘explode’ the view for a closer examination of individual components. Critical areas, flagged by predictive analysis for potential wear or failure, are highlighted in the model for quick identification. For example, areas showing abnormal wear patterns are marked in distinct colors.
 
-Error Identification and Proactive Recommendations: Users can interact with highlighted areas on the bogie model to access specific error details and associated recommendations. This direct linkage to XMPro’s Recommendation Manager facilitates swift and effective resolution strategies.
+Error Identification and Proactive Recommendations:Users can interact with highlighted areas on the bogie model to access specific error details and associated recommendations. This direct linkage to XMPro’s Recommendation Manager facilitates swift and effective resolution strategies.
 
-Detailed Bogie Information: The dashboard provides extensive information about Bogie B001, including its type, model, operational history, and manufacturer details, offering a complete profile of the asset.
+Detailed Bogie Information:The dashboard provides extensive information about Bogie B001, including its type, model, operational history, and manufacturer details, offering a complete profile of the asset.
 
-XMPro Co-Pilot Integration: Integrated with XMPro Co-Pilot, this feature utilizes AI, trained on internal datasets like maintenance records and manufacturer specifications, to provide targeted advice and solutions for issues related to Bogie B001. This AI-driven assistance supports informed decision-making and enhances the efficiency of maintenance processes.
+XMPro Co-Pilot Integration:Integrated with XMPro Co-Pilot, this feature utilizes AI, trained on internal datasets like maintenance records and manufacturer specifications, to provide targeted advice and solutions for issues related to Bogie B001. This AI-driven assistance supports informed decision-making and enhances the efficiency of maintenance processes.
 
 This Asset Analysis View is tailored to deliver a comprehensive understanding of Bogie B001’s health, combining advanced visualizations with data-driven insights and AI-powered recommendations for effective bogie management in the rail industry.
 
@@ -80,55 +80,55 @@ This Asset Analysis View is tailored to deliver a comprehensive understanding of
 
 XMPro’s Intelligent Digital Twin Suite (iDTS) is uniquely equipped to address the complexities of Bogie Health Monitoring in the rail industry, utilizing cutting-edge technology and analytics. Here’s how XMPro iDTS excels in this application:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2022/07/Digital-Twin-Simulation.png" width="256" height="256">
 
 ### Intelligent Digital Twin for Bogie Monitoring:
 
 XMPro iDTS allows users to craft an intelligent digital twin of the bogie components, enabling detailed simulation and analysis. This virtual model is crucial for assessing wear patterns and predicting maintenance needs, enhancing the accuracy of anomaly detection.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Data-Wrangling.png" width="256" height="256">
 
 ### Seamless Data Integration and Transformation:
 
 Featuring a robust integration library, XMPro iDTS seamlessly incorporates data from various sensors, including vibration and temperature sensors on bogies. This integration is key to transforming raw data into meaningful insights for predictive maintenance.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Predictive-Analytics.png" width="256" height="256">
 
 ### Advanced Machine Learning for Anomaly Detection:
 
 Utilizing machine learning algorithms, XMPro iDTS analyzes sensor data to identify anomalies that indicate abnormal wear. This approach allows for early detection of potential issues that could lead to derailments or other safety hazards.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Maintenance-Schedule.png" width="256" height="256">
 
 ### Optimization of Maintenance Schedules:
 
 By analyzing wear patterns and predicting maintenance needs, XMPro iDTS helps optimize maintenance schedules. This shift from fixed-interval to condition-based maintenance reduces costs and prevents unnecessary downtime.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Real-Time-Alert.png" width="256" height="256">
 
 ### Real-Time Alerts and Proactive Decision Making:
 
 The system provides instant alerts on emerging bogie issues, coupled with decision support tools. This feature aids maintenance teams in prioritizing actions based on the criticality of the detected anomalies.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Customized-Dashboards.png" width="256" height="256">
 
 ### Customizable Dashboards for Enhanced Visibility:
 
 XMPro iDTS includes adaptable dashboards that display vital bogie health data, alongside comprehensive reporting features for maintenance planning and compliance purposes.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Scalability.png" width="256" height="256">
 
 ### Scalability and Flexibility – Start Small, Scale Fast:
 
 Designed for scalability and flexibility, XMPro iDTS can be tailored to various rail network sizes and integrates effortlessly with diverse sensor technologies. Its rapid deployment capability ensures a quick realization of value.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Safety-Hat.png" width="256" height="256">
 
 ### Enhanced Safety and Operational Efficiency:
 
 By enabling proactive maintenance and early wear detection, XMPro iDTS significantly enhances the safety and operational efficiency of rail systems, reducing accident risks and ensuring reliable service.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Blueprint.png" width="256" height="256">
 
 ### Quick Time To Value – XMPro Blueprints
 
@@ -138,7 +138,7 @@ In essence, XMPro iDTS offers a holistic, real-time, predictive, and integrated 
 
 # Not Sure How To Get Started?
 
-### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects with Over 10x ROI in only a matter of weeks!
+### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects withOver 10x ROIin only a matter of weeks!
 
 ### Request a free online consultation for your business problem.
 

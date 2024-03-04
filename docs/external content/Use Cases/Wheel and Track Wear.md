@@ -12,11 +12,11 @@ In the rail industry, the integrity of wheels and tracks is paramount for safe a
 
 Rail systems face significant challenges in maintaining the health of wheels and tracks:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V1_Rail-Asset-Overview-Mockup-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Asset-Drilldown-Trains-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20528%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="528">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V03_Wheel-Threshold_Asset-Analysis-Train-T012-1024x530.jpg" width="1020" height="528">
 
 ### The Solution: XMPro Wheel and Track Wear Monitoring
 
@@ -32,7 +32,7 @@ Using data-driven insights to optimize maintenance schedules, shifting from fixe
 
 Providing real-time alerts to maintenance teams about potential issues.Generating detailed reports on wheel and track conditions for maintenance planning and regulatory compliance.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V1_Rail-Asset-Overview-Mockup.jpg" width="1920" height="992">
 
 Figure 1. Real-Time Rail Asset Overview Dashboard
 
@@ -46,7 +46,7 @@ Additionally, the dashboard includes a detailed graph that tracks maintenance re
 
 Each section of the dashboard is designed for deeper exploration. Users can drill down into specific asset and recommendation details, gaining granular insights and enabling targeted actions based on the system’s recommendations. This level of detail ensures that users can make informed decisions quickly and maintain optimal operational efficiency.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Asset-Drilldown-Trains.jpg" width="1920" height="992">
 
 Figure 2. Asset Drill Down View – Trains
 
@@ -56,7 +56,7 @@ The specific asset view for trains provides users with a comprehensive and infor
 
 This dashboard is designed for ease of use, allowing quick access to vital information and efficient management of train assets.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20993%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="993">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V03_Wheel-Threshold_Asset-Analysis-Train-T012.jpg" width="1920" height="993">
 
 Figure 3. Asset Analysis View – Train T001
 
@@ -72,55 +72,55 @@ This Asset Analysis View is designed to provide users with a holistic understand
 
 XMPro’s Intelligent Digital Twin Suite (iDTS) offers unique and innovative solutions for Wheel and Track Wear Monitoring in the rail industry, leveraging advanced technologies and analytics. Here’s how XMPro iDTS specifically addresses this challenge:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2022/07/Digital-Twin-Simulation.png" width="256" height="256">
 
 ### Digital Twin Modeling for Rail Systems:
 
 XMPro iDTS creates a digital twin of the rail system, including detailed models of the tracks and wheels. This virtual representation allows for sophisticated simulation and analysis of wear patterns, enabling predictive maintenance and anomaly detection.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Data-Wrangling.png" width="256" height="256">
 
 ### Comprehensive Data Integration And Sophisticated Transformation
 
 XMPro iDTS features a comprehensive library of integrations that allow businesses to integrate and transform data from virtually any data source. In this case the solution integrates data from vibration and acoustic sensors installed on trains and tracks.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Predictive-Analytics.png" width="256" height="256">
 
 ### Advanced Machine Learning for Anomaly Detection:
 
 Utilizing machine learning algorithms, XMPro iDTS analyzes sensor data to identify anomalies that indicate abnormal wear. This approach allows for early detection of potential issues that could lead to derailments or other safety hazards.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Maintenance-Schedule.png" width="256" height="256">
 
 ### Optimization of Maintenance Schedules:
 
 By analyzing wear patterns and predicting maintenance needs, XMPro iDTS helps optimize maintenance schedules. This shift from fixed-interval to condition-based maintenance reduces costs and prevents unnecessary downtime.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Real-Time-Alert.png" width="256" height="256">
 
 ### Real-Time Alerts and Decision Support:
 
 XMPro iDTS provides real-time alerts to maintenance teams regarding potential wear issues. It also offers decision support tools to help prioritize maintenance activities based on the severity and urgency of detected anomalies.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Customized-Dashboards.png" width="256" height="256">
 
 ### Customizable Dashboards and Reporting:
 
 The solution includes customizable dashboards that present key data and insights on wheel and track conditions. It also generates comprehensive reports for maintenance planning and regulatory compliance.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Scalability.png" width="256" height="256">
 
 ### Scalability and Flexibility – Start Small, Scale Fast:
 
 XMPro iDTS is scalable and flexible, capable of adapting to different sizes of rail networks and integrating with various types of sensor technologies. XMPro has been consistently deployed in only a matter of weeks.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Safety-Hat.png" width="256" height="256">
 
 ### Enhanced Safety and Operational Efficiency:
 
 By enabling proactive maintenance and early detection of wear issues, XMPro iDTS enhances the safety and operational efficiency of rail systems, reducing the risk of accidents and improving service reliability.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Blueprint.png" width="256" height="256">
 
 ### Quick Time To Value – XMPro Blueprints
 
@@ -130,7 +130,7 @@ In summary, XMPro iDTS addresses the unique challenges of wheel and track wear m
 
 # Not Sure How To Get Started?
 
-### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects with Over 10x ROI in only a matter of weeks!
+### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects withOver 10x ROIin only a matter of weeks!
 
 ### Request a free online consultation for your business problem.
 

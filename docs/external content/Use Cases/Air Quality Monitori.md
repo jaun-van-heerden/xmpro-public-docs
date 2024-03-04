@@ -16,27 +16,19 @@ XMPro’s Intelligent Digital Twin solution offers a dynamic and comprehensive a
 
 ### Use Case Features:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
-
-##### Digital Twin-Enabled Real-Time Monitoring:
+<img src="https://xmpro.com/wp-content/uploads/2022/07/Digital-Twin-Simulation.png" width="256" height="256">
 
 Deployment of IoT sensors across the farm, integrated with a digital twin model that replicates the farm’s environmental conditions, providing real-time insights into air quality levels.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
-
-##### Data Integration and Predictive Analytics:
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Predictive-Analytics.png" width="256" height="256">
 
 The digital twin aggregates data from various sources, analyzing it to identify trends and predict potential air quality issues before they impact crop health or soil quality.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
-
-##### Customizable Dashboards:
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Customized-Dashboards.png" width="256" height="256">
 
 User-friendly dashboards that display real-time data and predictive insights, customizable to the specific needs of farm managers.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20200%20200%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="200" height="200">
-
-##### Automated Compliance Reporting:
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Compliance-e1703048582596.png" width="200" height="200">
 
 The solution automates the generation of compliance reports, ensuring that the farm meets environmental air quality standards.
 
@@ -44,11 +36,11 @@ The solution automates the generation of compliance reports, ensuring that the f
 
 ### Implementation Strategy
 
-Farm Assessment and Sensor Deployment: Conducting an in-depth assessment to strategically place IoT sensors, ensuring comprehensive coverage for accurate data collection.
+Farm Assessment and Sensor Deployment:Conducting an in-depth assessment to strategically place IoT sensors, ensuring comprehensive coverage for accurate data collection.
 
-Integration and Customization: Seamlessly integrating the digital twin with existing farm management systems. Customizing the digital twin model and dashboards to reflect the unique characteristics and needs of the farm.
+Integration and Customization:Seamlessly integrating the digital twin with existing farm management systems. Customizing the digital twin model and dashboards to reflect the unique characteristics and needs of the farm.
 
-Training and User Adoption: Providing extensive training to farm staff on utilizing the digital twin platform for maximum benefit.Ensuring user adoption through continuous support and iterative improvements based on user feedback.
+Training and User Adoption:Providing extensive training to farm staff on utilizing the digital twin platform for maximum benefit.Ensuring user adoption through continuous support and iterative improvements based on user feedback.
 
 # WHY XMPRO iDTS?
 

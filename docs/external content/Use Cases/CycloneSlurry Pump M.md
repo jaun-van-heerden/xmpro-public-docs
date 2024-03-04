@@ -8,9 +8,9 @@ URL: https://xmpro.com/solutions-library/mining,use-cases/cyclone-slurry-pump-mo
 
 Cyclone and slurry pump systems are critical components in many industrial processes, particularly in mining, manufacturing, and wastewater management. However, they face several challenges:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20574%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="574">
+<img src="https://xmpro.com/wp-content/uploads/2023/07/OEM-1024x576.png" width="1020" height="574">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20960%20540%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="960" height="540">
+<img src="https://xmpro.com/wp-content/uploads/2023/02/Integrate-Machine-Learning.jpg" width="960" height="540">
 
 ### The Solution
 

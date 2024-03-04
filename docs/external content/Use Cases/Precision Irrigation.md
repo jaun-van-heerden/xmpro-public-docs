@@ -12,9 +12,9 @@ In the agriculture industry, efficient water management is crucial for sustainab
 
 Farmers often face challenges in irrigation management, including:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20527%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="527">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1-irrigation-Agriculture-Asset-Overview-Mockup-1024x529.jpg" width="1020" height="527">
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20528%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="528">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/Asset-Analysis-Irrigation-Field-Asset-Analysis-1024x530.jpg" width="1020" height="528">
 
 ### The Solution: XMPro’s Precision Irrigation System
 
@@ -42,7 +42,7 @@ Efficient Water Usage:
 
 Precision irrigation leads to more efficient water use, reducing waste and conserving resources.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20992%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="992">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/V1-irrigation-Agriculture-Asset-Overview-Mockup.jpg" width="1920" height="992">
 
 Figure 1. Real-Time Agriculture Asset Overview Dashboard
 
@@ -84,7 +84,7 @@ Users can delve into detailed information about specific assets by clicking on t
 
 This Real-Time Agriculture Asset Overview Dashboard is a vital tool for agricultural operators, enabling effective monitoring and management of diverse farm operations. By providing real-time data, predictive insights, and actionable recommendations across multiple specialized views, it enhances operational efficiency, optimizes resource management, and supports informed agricultural practices.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201920%20993%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1920" height="993">
+<img src="https://xmpro.com/wp-content/uploads/2024/01/Asset-Analysis-Irrigation-Field-Asset-Analysis.jpg" width="1920" height="993">
 
 Figure 2. Asset Analysis View – Field F006 Soil Moisture Health
 
@@ -118,55 +118,55 @@ This Asset Analysis View is tailored to provide a complete and actionable pictur
 
 XMPro’s Intelligent Digital Twin Suite (iDTS) offers innovative solutions tailored for precision irrigation in agriculture, leveraging its advanced capabilities to optimize irrigation practices and enhance crop yields. Here’s how XMPro iDTS effectively addresses the challenges in this domain:
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2022/07/Digital-Twin-Simulation.png" width="256" height="256">
 
 ### Digital Twin Modeling for Agricultural Land:
 
 XMPro iDTS can create a digital twin of agricultural fields, providing a virtual representation that mirrors real-world conditions. This allows for continuous monitoring and analysis of soil moisture, crop health, and environmental factors, aiding in precise irrigation planning.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Data-Wrangling.png" width="256" height="256">
 
 ### Advanced Sensor Data Integration & Transformation:
 
 The suite integrates data from soil moisture sensors, weather stations, and satellite imagery. This comprehensive data integration is crucial for accurately assessing irrigation needs and optimizing water usage.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Predictive-Analytics.png" width="256" height="256">
 
 ### Predictive Analytics for Irrigation Scheduling:
 
 Utilizing machine learning algorithms, XMPro iDTS analyzes diverse data sets to predict optimal irrigation times and quantities. This approach enables proactive, data-driven irrigation, ensuring that crops receive the right amount of water at the right time.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Maintenance-Schedule.png" width="256" height="256">
 
 ### Irrigation Scheduling Optimization:
 
 XMPro iDTS optimizes irrigation schedules based on real-time data and predictive insights, maximizing resource efficiency and crop yield while minimizing water waste and operational costs.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/V2_Real-Time-Alert.png" width="256" height="256">
 
 ### Real-Time Soil Monitoring and Alerting:
 
 The platform provides real-time monitoring of soil and crop conditions, generating instant alerts for deviations from optimal moisture levels, enabling timely irrigation decisions.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Customized-Dashboards.png" width="256" height="256">
 
 ### Customizable Dashboards for Decision Support:
 
 XMPro iDTS includes customizable dashboards that display key agricultural data, such as soil moisture trends and crop growth stages, in an easy-to-understand format, aiding in informed decision-making.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Scalability.png" width="256" height="256">
 
 ### Scalability and Flexibility – Start Small, Scale Fast:
 
 The platform offers scalable and flexible solutions, allowing for incremental adoption in agriculture. Its modular design ensures easy integration with existing agricultural systems, facilitating quick deployment and adaptability.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Safety-Hat.png" width="256" height="256">
 
 ### Enhanced Crop Safety & Operational Efficiency:
 
 By providing precise irrigation control and real-time insights, XMPro iDTS enhances crop safety and overall operational efficiency, leading to higher yields and sustainable farming practices.
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20256%20256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="256" height="256">
+<img src="https://xmpro.com/wp-content/uploads/2023/12/Blueprint.png" width="256" height="256">
 
 ### XMPro Blueprints – Quick Time to Value:
 
@@ -176,7 +176,7 @@ In summary, XMPro iDTS addresses the precision irrigation use case in agricultur
 
 # Not Sure How To Get Started?
 
-### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects with Over 10x ROI in only a matter of weeks!
+### No matter where you are on your digital transformation journey, the expert team at XMPro can help guide you every step of the way - We have helped clients successfully implement and deploy projects withOver 10x ROIin only a matter of weeks!
 
 ### Request a free online consultation for your business problem.
 

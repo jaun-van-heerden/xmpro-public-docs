@@ -2,7 +2,7 @@
 
 URL: https://xmpro.com/solutions-library/power-utilities,use-cases/demin-water-monitoring-for-boiler-tube-corrosion/
 
-<img src="data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201020%20680%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3C%2Fsvg%3E" width="1020" height="680">
+<img src="https://xmpro.com/wp-content/uploads/2020/04/8.jpg" width="1020" height="680">
 
 Thermal power plants experience large generation losses due to boiler tube leaks. A failure of the demineralized water deaerators that heat feedwater and reduce oxygen is a major cause of boiler tube erosion/corrosion.
 
