@@ -2,6 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from pathvalidate import sanitize_filename
+import json
 
 # Function to save content to Markdown file
 def save_to_md(title, content, url, folder_path):
@@ -77,8 +78,14 @@ def main():
     # Define the URL
     url = "https://xmpro.com/solutions-library/use-cases/"
     
-    # Define the folder path
-    folder_path = "Use Cases"
+    # Define the path to the config file
+    config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-usecases-config.json'
+
+    # Load JSON config file
+    with open(config_file_path) as json_file:
+        config_data = json.load(json_file)
+        folder_path = config_data.get("folderPath")
+
     os.makedirs(folder_path, exist_ok=True)
 
     # Send a GET request to the URL

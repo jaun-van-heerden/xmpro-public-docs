@@ -2,6 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+import json
 
 # Function to truncate title
 def truncate_title(title, max_chars=20):
@@ -63,6 +64,14 @@ def scrape_and_export(url, folder_path):
     else:
         print(f"Failed to retrieve {url}. Status code:", response.status_code)
 
+# Define the path to the config file
+config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-solutions-config.json'
+
+# Load JSON config file
+with open(config_file_path) as json_file:
+    config_data = json.load(json_file)
+    folder_path = config_data.get("folderPath")
+
 # URL of the webpage
 base_url = "https://xmpro.com"
 url = "https://xmpro.com/solutions-library/"
@@ -88,7 +97,7 @@ if response.status_code == 200:
             href = hyperlink.get("href")
             if href:
                 full_url = urljoin(base_url, href)
-                scrape_and_export(full_url, "Solutions")
+                scrape_and_export(full_url, folder_path)
     else:
         print("Div element not found.")
 else:

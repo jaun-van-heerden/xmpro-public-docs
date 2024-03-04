@@ -1,6 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
+import json
 
 def scrape_and_export(url, folder_path):
     try:
@@ -51,17 +52,30 @@ def scrape_and_export(url, folder_path):
     except Exception as e:
         print(f"Error occurred while fetching content from {url}: {e}")
 
-# Define the URLs to scrape
-urls = [
-    "https://xmpro.com/about/",
-    "https://xmpro.com/partners/",
-    "https://xmpro.com/press-room/"
-]
+def main():
+    # Load configuration from JSON file
+    with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-about-config.json') as json_file:
+        config = json.load(json_file)
 
-# Define the folder path
-folder_path = "About XMPro"
-os.makedirs(folder_path, exist_ok=True)
+    # Extract folder path from config
+    folder_path = config.get('folderPath')
 
-# Scrape and export content for each URL
-for url in urls:
-    scrape_and_export(url, folder_path)
+    if folder_path:
+        # Ensure the folder path exists, create if it doesn't
+        os.makedirs(folder_path, exist_ok=True)
+
+        # Define the URLs to scrape
+        urls = [
+            "https://xmpro.com/about/",
+            "https://xmpro.com/partners/",
+            "https://xmpro.com/press-room/"
+        ]
+
+        # Scrape and export content for each URL
+        for url in urls:
+            scrape_and_export(url, folder_path)
+    else:
+        print("Folder path not found in config.")
+
+if __name__ == "__main__":
+    main()

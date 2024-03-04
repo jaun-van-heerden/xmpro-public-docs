@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from time import sleep
 import re
+import json
 
 def scrape_page(url):
     try:
@@ -13,18 +14,18 @@ def scrape_page(url):
             response = session.get(url, headers=headers)
             response.raise_for_status()  # Raise an exception for bad status codes
             soup = BeautifulSoup(response.text, 'html.parser')
-       
+
         # Get title
         title_tag = soup.find('title')
         if title_tag:
             title = title_tag.get_text().strip()
         else:
             title = "Untitled"
-       
+
         # Get paragraph content
         paragraphs = soup.find('div', class_='entry-content').find_all('p')
         content = '\n'.join([p.get_text() for p in paragraphs])
-       
+
         return title, content
     except requests.RequestException as e:
         print(f"Failed to retrieve content from {url}: {e}")
@@ -43,7 +44,7 @@ def save_to_md(title, content, url, folder_path):
             filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', truncated_title.strip().replace(' ', '_'))}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
-       
+
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
             file.write(f"URL: {url}\n\n")
@@ -95,32 +96,46 @@ def get_max_page_numbers(html, base_url):
             pass  # Ignore non-integer page numbers
     return max_page
 
-# Example HTML snippet
-html_snippet = '''
-<ul class="page-numbers nav-pagination links text-center">
-    <li><span aria-current="page" class="page-number current">1</span></li>
-    <li><a class="page-number" href="/category/news/page/2/">2</a></li>
-    <li><a class="page-number" href="/category/news/page/3/">3</a></li>
-    <li><a class="page-number" href="/category/news/page/4/">4</a></li>
-    <li><span class="page-number dots">…</span></li>
-    <li><a class="page-number" href="/category/news/page/14/">14</a></li>
-    <li><a class="next page-number" href="/category/news/page/2/"><i class="icon-angle-right"></i></a></li>
-</ul>
-'''
+def main():
+    # Load configuration from JSON file
+    with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-latestnews-config.json') as json_file:
+        config = json.load(json_file)
 
-base_url = "https://xmpro.com/category/news/"
-num_pages = get_max_page_numbers(html_snippet, base_url)
+    # Extract folder path from config
+    folder_path = config.get('folderPath')
 
-all_blog_urls = get_all_blog_urls(base_url, num_pages)
+    if folder_path:
+        # Ensure the folder path exists, create if it doesn't
+        os.makedirs(folder_path, exist_ok=True)
 
-folder_path = "Latest News"
-os.makedirs(folder_path, exist_ok=True)
+        # Example HTML snippet
+        html_snippet = '''
+        <ul class="page-numbers nav-pagination links text-center">
+            <li><span aria-current="page" class="page-number current">1</span></li>
+            <li><a class="page-number" href="/category/news/page/2/">2</a></li>
+            <li><a class="page-number" href="/category/news/page/3/">3</a></li>
+            <li><a class="page-number" href="/category/news/page/4/">4</a></li>
+            <li><span class="page-number dots">…</span></li>
+            <li><a class="page-number" href="/category/news/page/14/">14</a></li>
+            <li><a class="next page-number" href="/category/news/page/2/"><i class="icon-angle-right"></i></a></li>
+        </ul>
+        '''
 
-for url in all_blog_urls:
-    # Introduce a delay of 1 second before scraping each page
-    sleep(1)
-    title, content = scrape_page(url)
-    if title and content:
-        save_to_md(title, content, url, folder_path)  # Call save_to_md instead of save_to_txt
+        base_url = "https://xmpro.com/category/news/"
+        num_pages = get_max_page_numbers(html_snippet, base_url)
+
+        all_blog_urls = get_all_blog_urls(base_url, num_pages)
+
+        for url in all_blog_urls:
+            # Introduce a delay of 1 second before scraping each page
+            sleep(1)
+            title, content = scrape_page(url)
+            if title and content:
+                save_to_md(title, content, url, folder_path)  # Call save_to_md instead of save_to_txt
+            else:
+                print(f"Failed to scrape the page: {url}")
     else:
-        print(f"Failed to scrape the page: {url}")
+        print("Folder path not found in config.")
+
+if __name__ == "__main__":
+    main()

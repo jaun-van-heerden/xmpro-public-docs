@@ -4,11 +4,11 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from time import sleep
 import re
+import json
 
 def scrape_page_content(url):
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
         with requests.Session() as session:
             response = session.get(url, headers=headers)
             response.raise_for_status()  # Raise an exception for bad status codes
@@ -81,11 +81,10 @@ def save_to_md(content, page_title, page_url, folder_path):
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
 
-def scrape_xmpro_platform_pages():
+def scrape_xmpro_platform_pages(folder_path):
     base_url = "https://xmpro.com/platform/"
     try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
         with requests.Session() as session:
             response = session.get(base_url, headers=headers)
             response.raise_for_status()  # Raise an exception for bad status codes
@@ -100,8 +99,6 @@ def scrape_xmpro_platform_pages():
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)
                 if content_div:
-                    folder_name = "XMPro Platform"
-                    folder_path = "XMPro Platform"
                     page_title = link.text.strip()
                     if not page_title:
                         h1_heading = content_div.find('h1')
@@ -137,5 +134,13 @@ def scrape_xmpro_platform_pages():
     except Exception as e:
         print(f"Error occurred: {e}")
 
+# Define the path to the config file
+config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-platform-config.json'
+
+# Load JSON config file
+with open(config_file_path) as json_file:
+    config_data = json.load(json_file)
+    folder_path = config_data.get("folderPath")
+
 # Scrape and save pages from the "XMPro Platform" submenu
-scrape_xmpro_platform_pages()
+scrape_xmpro_platform_pages(folder_path)

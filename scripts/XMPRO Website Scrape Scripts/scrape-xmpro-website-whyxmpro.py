@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from time import sleep
 import re
+import json
 
 def scrape_page_content(url):
     try:
@@ -68,6 +69,17 @@ def scrape_why_xmpro_pages():
         if dropdown_menu:
             # Find all links in the dropdown menu
             dropdown_links = dropdown_menu.find_all('a', href=True)
+            
+            # Define the path to the config file
+            config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-whyxmpro-config.json'
+
+            # Load JSON config file
+            with open(config_file_path) as json_file:
+                config_data = json.load(json_file)
+                folder_path = config_data.get("folderPath")
+
+            os.makedirs(folder_path, exist_ok=True)
+
             for link in dropdown_links:
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)

@@ -1,9 +1,10 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-from time import sleep
+from urllib.parse import urljoin  # Add this import statement
 import re
+import json
+from time import sleep
 
 def scrape_page(url):
     try:
@@ -107,6 +108,14 @@ def get_max_page_numbers(html, base_url):
             pass  # Ignore non-integer page numbers
     return max_page
 
+# Load JSON configuration
+with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-blogs-config.json') as json_file:
+    config_data = json.load(json_file)
+
+# Retrieve folder path from JSON
+folder_path = config_data.get('folderPath', 'docs/external content/Blogs')
+os.makedirs(folder_path, exist_ok=True)
+
 # Example HTML snippet
 html_snippet = '''
 <ul class="page-numbers nav-pagination links text-center">
@@ -124,9 +133,6 @@ base_url = "https://xmpro.com/category/blog/"
 num_pages = get_max_page_numbers(html_snippet, base_url)
 
 all_blog_urls = get_all_blog_urls(base_url, num_pages)
-
-folder_path = "Blogs"
-os.makedirs(folder_path, exist_ok=True)
 
 for url in all_blog_urls:
     # Introduce a delay of 1 second before scraping each page

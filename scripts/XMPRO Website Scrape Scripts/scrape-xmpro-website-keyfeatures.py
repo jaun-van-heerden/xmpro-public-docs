@@ -1,7 +1,7 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+import json
 
 def scrape_and_export(url, folder_path):
     try:
@@ -35,9 +35,14 @@ def scrape_and_export(url, folder_path):
                             prop = "src"
                             if "data-src" in element.attrs:
                                 prop = "data-src"
+                            # Get image dimensions
                             w = element.get("width")
                             h = element.get("height")
-                            file.write(f'<img src="{element[prop]}" width="{w * 2}" height="{h * 2}">\n\n')  # Increase image dimensions
+                            # If width or height is missing, skip the image
+                            if w and h:
+                                file.write(f'<img src="{element[prop]}" width="{w}" height="{h}">\n\n')
+                            else:
+                                print(f"Image dimensions missing for {element[prop]}. Skipping...")
                         elif element.name == "iframe" and "youtube.com" in element["src"]:
                             youtube_id = element["src"].split("/")[-1].split("?")[0]
                             file.write(f'[![Watch the video](https://img.youtube.com/vi/{youtube_id}/default.jpg)](https://youtu.be/{youtube_id})\n\n')  # Embed YouTube video thumbnail
@@ -56,18 +61,31 @@ def scrape_and_export(url, folder_path):
     except Exception as e:
         print(f"Error occurred while fetching content from {url}: {e}")
 
-# Define the URLs to scrape
-urls = [
-    "https://xmpro.com/intelligent-integration/",
-    "https://xmpro.com/xmpro-ai/",
-    "https://xmpro.com/interactive-3d-models/",
-    "https://xmpro.com/pricing/"
-]
+def main():
+    # Load configuration from JSON file
+    with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-keyfeatures-config.json') as json_file:
+        config = json.load(json_file)
 
-# Define the folder path
-folder_path = "XMPro Platform"
-os.makedirs(folder_path, exist_ok=True)
+    # Extract folder path from config
+    folder_path = config.get('folderPath')
 
-# Scrape and export content for each URL
-for url in urls:
-    scrape_and_export(url, folder_path)
+    if folder_path:
+        # Ensure the folder path exists, create if it doesn't
+        os.makedirs(folder_path, exist_ok=True)
+
+        # Define the URLs to scrape
+        urls = [
+            "https://xmpro.com/intelligent-integration/",
+            "https://xmpro.com/xmpro-ai/",
+            "https://xmpro.com/interactive-3d-models/",
+            "https://xmpro.com/pricing/"
+        ]
+
+        # Scrape and export content for each URL
+        for url in urls:
+            scrape_and_export(url, folder_path)
+    else:
+        print("Folder path not found in config.")
+
+if __name__ == "__main__":
+    main()
