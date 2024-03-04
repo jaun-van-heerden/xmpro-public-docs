@@ -8,7 +8,11 @@ def save_to_md(title, content, url, folder_path):
     try:
         # Sanitize the title to ensure it's suitable for use as a filename
         sanitized_title = sanitize_filename(title.strip().replace("&", ""))
-        filename = os.path.join(folder_path, f"{sanitized_title}.md")
+        
+        # Truncate the filename to a maximum of 20 characters
+        truncated_title = sanitized_title[:20]
+        
+        filename = os.path.join(folder_path, f"{truncated_title}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")

@@ -3,8 +3,12 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+# Function to truncate title
+def truncate_title(title, max_chars=20):
+    return title[:max_chars]
+
 # Function to scrape content and export as Markdown file
-def scrape_and_export(url, filepath):
+def scrape_and_export(url, folder_path):
     # Send a GET request to the URL
     response = requests.get(url)
 
@@ -20,12 +24,19 @@ def scrape_and_export(url, filepath):
         if portfolio_content_div and portfolio_content_div.find("div", class_="portfolio-inner"):
             # Extract page title
             title = soup.title.string.strip()
-            filename = f"{filepath}/{title}.md"
+            # Truncate title if it exceeds maximum characters
+            truncated_title = truncate_title(title)
+            filename = f"{folder_path}/{truncated_title}.md"
+            
+            # Create directory if it doesn't exist
+            os.makedirs(folder_path, exist_ok=True)
             
             # Open file in write mode
             with open(filename, "w", encoding="utf-8") as file:
                 # Write page title as main heading
                 file.write(f"# {title}\n\n")
+                # Write URL under the main heading
+                file.write(f"URL: {url}\n\n")
                 
                 # Find all text and image elements within the portfolio-inner div
                 for element in portfolio_content_div.find_all(["p", "h1", "h2", "h3", "h4", "img"]):

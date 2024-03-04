@@ -26,6 +26,9 @@ def scrape_page(url):
         else:
             title = "Untitled"
 
+        # Truncate title if it's too long
+        title = title[:20]
+
         # Get content including headings
         content = ""
         content_div = soup.find('div', class_='entry-content')
@@ -50,8 +53,8 @@ def scrape_page(url):
 
 def save_to_md(title, content, url, folder_path):
     try:
-        # Remove special characters from the title and replace spaces with underscores
-        filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', title.strip().replace(' ', '_'))}.md")
+        # Truncate title for filename if it's too long
+        filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', title.strip().replace(' ', '_'))[:20]}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")

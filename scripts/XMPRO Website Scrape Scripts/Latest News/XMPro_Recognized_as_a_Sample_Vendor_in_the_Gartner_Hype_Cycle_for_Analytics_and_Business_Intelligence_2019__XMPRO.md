@@ -1,7 +1,0 @@
-# XMPro Recognized as a “Sample Vendor” in the Gartner Hype Cycle for Analytics and Business Intelligence, 2019 - XMPRO
-
-URL: https://xmpro.com/xmpro-recognized-as-a-sample-vendor-in-the-gartner-hype-cycle-for-analytics-and-business-intelligence-2019/
-
-Dallas, TX, July 30, 2019 – XMPro is proud to announce that it has been listed as a “Sample Vendor” for Continuous Intelligence in the Gartner Hype Cycle for Analytics and Business Intelligence, 2019.
-According to the report, “Continuous intelligence plays a major role in digital business transformation projects. A key benefit is improved situation awareness and a common operating picture across business functions by providing real-time dashboards and alerts. Equally important is the capability to trigger automated responses by sending signals to machines or initiating business processes in cases where the decision on what to do can be automated.”
-“Our mission at XMPro is to help industrial organizations transform how they operate by creating continuous intelligence applications that bring in real-time data from multiple sources and enable rapid response to critical events. We are proud to be named by Gartner as a sample vendor for Continuous Intelligence, especially because we believe it is such a key part of any digital transformation initiative,” commented Pieter van Schalkwyk, CEO of XMPro.

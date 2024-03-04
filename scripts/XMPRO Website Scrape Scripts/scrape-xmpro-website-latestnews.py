@@ -37,8 +37,10 @@ def save_to_md(title, content, url, folder_path):
     try:
         # Ensure the title is not empty
         if title.strip():
+            # Truncate title if it's too long
+            truncated_title = title[:20]
             # Remove special characters from the title and replace spaces with underscores
-            filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', title.strip().replace(' ', '_'))}.md")
+            filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', truncated_title.strip().replace(' ', '_'))}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
        

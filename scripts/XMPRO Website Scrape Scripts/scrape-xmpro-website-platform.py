@@ -28,15 +28,39 @@ def scrape_page_content(url):
         print(f"Error occurred while fetching content from {url}: {e}")
         return None
 
+def add_unique_title(title, titles_trunc, MAX_CHARS):
+    # Truncate title to leave space for suffix if needed
+    if len(title) > MAX_CHARS:
+        truncated_title = title[:MAX_CHARS-3] + "..."
+        if truncated_title in titles_trunc:
+            # Append a number to make it unique
+            i = 2
+            while f"{truncated_title} ({i})" in titles_trunc:
+                i += 1
+            truncated_title = f"{truncated_title} ({i})"
+        titles_trunc.append(truncated_title)
+        return truncated_title
+    else:
+        if title in titles_trunc:
+            # Append a number to make it unique
+            i = 2
+            while f"{title} ({i})" in titles_trunc:
+                i += 1
+            title = f"{title} ({i})"
+        titles_trunc.append(title)
+        return title
+
 def save_to_md(content, page_title, page_url, folder_path):
     try:
+        titles_trunc = []
         # Remove special characters from the title
         title = re.sub(r'[^\w\s-]', '', page_title)
 
         # Ensure the title is not empty after removing special characters
         if title.strip():
             # Truncate the title if it's too long
-            filename = os.path.join(folder_path, f"{title.strip()[:50]}.md")
+            truncated_title = add_unique_title(title.strip(), titles_trunc, MAX_CHARS=20)
+            filename = os.path.join(folder_path, f"{truncated_title}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
 
@@ -48,7 +72,7 @@ def save_to_md(content, page_title, page_url, folder_path):
 
         with open(filename, 'w', encoding='utf-8') as file:
             # Write the title
-            file.write(f"# {page_title.strip()}\n\n")
+            file.write(f"# {truncated_title}\n\n")
             # Write the URL
             file.write(f"URL: {page_url}\n\n")
             # Write the content

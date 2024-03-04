@@ -35,13 +35,17 @@ def save_to_md(content, page_title, page_url, folder_path):
 
         # Ensure the title is not empty after removing special characters
         if title.strip():
-            filename = os.path.join(folder_path, f"{title.strip()[:50]}.md")
+            # Truncate title to a maximum of 20 characters
+            truncated_title = title.strip()[:20]
+            filename = os.path.join(folder_path, f"{truncated_title}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
-            # Write page URL in the specified format
-            file.write(f"# {page_title}\n\nURL: [{page_url}]({page_url})\n\n")
+            # Write page title as main heading
+            file.write(f"# {page_title}\n\n")
+            # Write URL under the main heading in the specified format
+            file.write(f"URL: [{page_url}]({page_url})\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
     except Exception as e:
