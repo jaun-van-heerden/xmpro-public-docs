@@ -10,95 +10,95 @@ In today’s dynamic industrial environment, Condition Monitoring is not just an
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/4411553-300x300.png" width="300" height="300">
 
-# 5-10% Reduced
+# 5-10%Reduced
 
 ### Maintenance Costs
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Equipment-Uptime-300x300.png" width="300" height="300">
 
-# 10-20% Increased
+# 10-20%Increased
 
 ### Equipment Uptime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Maintenance-Planning-Time-300x300.png" width="300" height="300">
 
-# 20-50% Decreased
+# 20-50%Decreased
 
 ### Maintenance Planning Time
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/MTTR-Icon-300x300.png" width="300" height="300">
 
-# 40-60% Reduced
+# 40-60%Reduced
 
 ### MTTR (mean-time-to-repair)
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Asset-Lifespan-300x300.png" width="300" height="300">
 
-# 10-30% Increased
+# 10-30%Increased
 
 ### Asset Service Life
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Amortization-300x300.png" width="300" height="300">
 
-# 45% Increased
+# 45%Increased
 
 ### Amortization in 1 year
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Caron-Emissions-Icon-300x300.png" width="300" height="300">
 
-# 10-25% Reduced
+# 10-25%Reduced
 
 ### Carbon Emissions
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/ESG-Investment-Icon-300x300.png" width="300" height="300">
 
-# 1.5 - 2  X ROI
+# 1.5 - 2X ROI
 
 ### On ESG Investment
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Waste-Reduction-Icon-300x300.png" width="300" height="300">
 
-# 25-40% Reduction
+# 25-40%Reduction
 
 ### In Waste
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Production-Downtime-300x300.png" width="300" height="300">
 
-# 35-45% Reduced
+# 35-45%Reduced
 
 ### Production Downtime
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Increased-Production-300x300.png" width="300" height="300">
 
-# 20-30% Increase
+# 20-30%Increase
 
 ### In Production
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Bottom-Line-Icon-300x300.png" width="300" height="300">
 
-# 10-15% Increase
+# 10-15%Increase
 
 ### In Bottom Line
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Product-Defects-Icon-300x300.jpg" width="300" height="300">
 
-# 50-70% Reduced
+# 50-70%Reduced
 
 ### Product Defects
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/First-Pass-Yield-Icon-300x300.png" width="300" height="300">
 
-# 15-25% Increase
+# 15-25%Increase
 
 ### In First-Pass-Yield
 
 <img src="https://xmpro.com/wp-content/uploads/2023/06/Alert-Icons-SPC-300x300.png" width="300" height="300">
 
-# 20-40% Reduction
+# 20-40%Reduction
 
 ### In SPC Alerts
 
-# XMPro’s Model-Based Condition Monitoring Approach
+# XMPro’s Model-BasedCondition Monitoring Approach
 
 Combine the best of Physics with the best of AI for the best condition monitoring from an Intelligent Digital Twin​
 
@@ -118,7 +118,7 @@ Combine the best of Physics with the best of AI for the best condition monitorin
 
 # Getting Started: XMPro’s 3-Step Process To Success:
 
-Our Unique 3 Step Process to Prioritize, Predict, and Propel at Scale​
+Our Unique 3 Step Process toPrioritize,Predict, andPropel at Scale​
 
 # 1
 
@@ -136,7 +136,7 @@ XMPro’s 3-step process in model-based condition monitoring uniquely combines c
 
 ### Step 1. Prioritize Bad Actors First
 
-Start your condition monitoring journey by focusing on the most critical elements. XMPro’s Intelligent Digital Twins continually monitor operational assets, providing constant analysis. By identifying and focusing on these critical components, our solution generates practical recommendations, ensuring your condition monitoring efforts are precisely targeted for optimal outcomes.
+Start your condition monitoring journey by focusing on the most critical elements. XMPro’s Intelligent Digital Twinscontinually monitor operational assets,providing constant analysis. By identifying and focusing on these critical components,our solution generates practical recommendations,ensuring your condition monitoring efforts are precisely targeted for optimal outcomes.
 
 <img src="https://xmpro.com/wp-content/uploads/2023/10/Root-Cause-Analysis.jpeg" width="1199" height="555">
 
@@ -148,7 +148,7 @@ Experience the power of the XMPro hybrid model-based approach, seamlessly integr
 
 ### Step 3. Quick Time to Value with Blueprints and templates​
 
-Expedite your condition monitoring implementation with our ready-to-use blueprints and templates. XMPro offers a comprehensive array of starting blueprints for various asset classes, ensuring a smooth and effective onset to your condition monitoring endeavors.
+Expedite your condition monitoring implementation with ourready-to-use blueprints and templates.XMPro offers a comprehensive array of starting blueprints for various asset classes, ensuring a smooth and effective onset to your condition monitoring endeavors.
 
 <img src="https://xmpro.com/wp-content/uploads/2023/07/OEM.png" width="1920" height="1080">
 
@@ -180,7 +180,7 @@ Expedite your condition monitoring implementation with our ready-to-use blueprin
 
 # XMPro Solutions
 
-# See how XMPro can help your business unlock it's full operational potential. Explore by use case, technology or industry.
+# See how XMPro can help your business unlock it's full operational potential. Explore byuse case,technologyorindustry.
 
 <img src="https://xmpro.com/wp-content/uploads/2023/05/Real-Time-Events-Isometric.png" width="856" height="826">
 
@@ -200,7 +200,7 @@ XMPro actively monitors 52 conveyors (spanning over 80+km) in real time, predict
 
 ### Benefits:
 
-Within five months, the solution identified a potential saving of 184 hours of borer downtime, equating to 44k product tonnes. Exceeding the target, the solution achieved over a 80% reduction in downtime for fluid coupling failures. It now monitors multiple asset types across several mines
+Within five months, the solution identified a potentialsaving of 184 hoursof borer downtime, equating to44k product tonnes.Exceeding the target, the solution achievedover a 80% reduction in downtimefor fluid coupling failures. It now monitors multiple asset types across several mines
 
 <img src="https://xmpro.com/wp-content/uploads/2023/08/Case-Study-After-1024x517.jpg" width="1020" height="515">
 

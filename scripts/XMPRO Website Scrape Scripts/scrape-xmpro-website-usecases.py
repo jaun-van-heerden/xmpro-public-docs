@@ -20,6 +20,7 @@ def save_to_md(title, content, url, folder_path):
             file.write(f"URL: {url}\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
+        return {'title': title, 'filename': filename}
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
 
@@ -65,8 +66,8 @@ def scrape_page(url, folder_path):
                             else:
                                 markdown_content += f"{element.get_text(strip=True)}\n\n"
 
-                    # Save content to a Markdown file
-                    save_to_md(title, markdown_content, url, folder_path)
+                    # Save content to a Markdown file and return filename with title
+                    return save_to_md(title, markdown_content, url, folder_path)
                 else:
                     print("Portfolio inner div not found.")
             else:
@@ -75,7 +76,19 @@ def scrape_page(url, folder_path):
             print(f"Failed to retrieve page {url}. Status code: {response.status_code}")
     except Exception as e:
         print(f"Error occurred while scraping page {url}: {e}")
+    return None
 
+# Function to update or create README.md with hyperlinks to exported markdown files
+def update_readme(folder_path, md_files, title):
+    try:
+        readme_file = os.path.join(folder_path, "README.md")
+        with open(readme_file, 'w', encoding='utf-8') as file:
+            file.write(f"# {title}\n\n")
+            for md_file in md_files:
+                file.write(f"* [{md_file['title']}]({md_file['filename']})\n")
+        print(f"README.md updated with hyperlinks to exported markdown files.")
+    except Exception as e:
+        print(f"Error occurred while updating README.md: {e}")
 
 # Main function
 def main():
@@ -91,6 +104,9 @@ def main():
         folder_path = config_data.get("folderPath")
 
     os.makedirs(folder_path, exist_ok=True)
+
+    # List to store information about saved markdown files
+    md_files = []
 
     # Send a GET request to the URL
     response = requests.get(url)
@@ -108,11 +124,19 @@ def main():
             # Iterate over each hyperlink
             for hyperlink in hyperlinks:
                 page_url = hyperlink["href"]
-                scrape_page(page_url, folder_path)
+                md_file_info = scrape_page(page_url, folder_path)
+                if md_file_info:
+                    md_files.append(md_file_info)
         else:
             print("Content div not found.")
     else:
         print(f"Failed to retrieve page {url}. Status code: {response.status_code}")
+
+    # Update or create README.md with hyperlinks to exported markdown files
+    if md_files:
+        update_readme(folder_path, md_files, "Use Cases")
+    else:
+        print("No markdown files found to update README.md.")
 
 if __name__ == "__main__":
     main()

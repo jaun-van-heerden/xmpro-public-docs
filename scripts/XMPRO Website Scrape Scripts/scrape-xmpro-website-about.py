@@ -3,14 +3,39 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-def scrape_and_export(url, folder_path):
+# Function to truncate title
+def truncate_title(title, max_chars=20):
+    return title[:max_chars]
+
+# Function to save content to Markdown file
+def save_to_md(title, content, url, folder_path):
+    try:
+        # Sanitize the title to ensure it's suitable for use as a filename
+        sanitized_title = title.strip().replace("&", "").replace("/", "-")
+        
+        # Truncate the filename to a maximum of 20 characters
+        truncated_title = truncate_title(sanitized_title)
+        
+        filename = os.path.join(folder_path, f"{truncated_title}.md")
+
+        with open(filename, 'w', encoding='utf-8') as file:
+            file.write(f"# {title}\n\n")
+            file.write(f"URL: {url}\n\n")
+            file.write(content)
+        print(f"Content saved to {filename}")
+        return {'title': title, 'filename': filename}
+    except Exception as e:
+        print(f"Error occurred while saving to file: {e}")
+
+# Function to scrape content from each page
+def scrape_page(url, folder_path):
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
         with requests.Session() as session:
             response = session.get(url, headers=headers)
             response.raise_for_status()  # Raise an exception for bad status codes
             soup = BeautifulSoup(response.text, 'html.parser')
-            
+
             # Find the main content area
             main_content = soup.find('main', id='main', class_='')
             if main_content:
@@ -25,7 +50,7 @@ def scrape_and_export(url, folder_path):
                 with open(filename, 'w', encoding='utf-8') as file:
                     # Write page title as main heading
                     file.write(f"# {page_title}\n\n")
-                    
+
                     # Write page URL in the specified format
                     file.write(f"URL: {url}\n\n")
 
@@ -45,13 +70,28 @@ def scrape_and_export(url, folder_path):
                             else:
                                 file.write(f"{element.get_text().strip()}\n\n")
                 print(f"Content saved to {filename}")
+                return {'title': page_title, 'filename': filename}
             else:
                 print("Main content area not found.")
     except requests.RequestException as e:
         print(f"Failed to retrieve content from {url}: {e}")
     except Exception as e:
         print(f"Error occurred while fetching content from {url}: {e}")
+    return None
 
+# Function to update or create README.md with hyperlinks to exported markdown files
+def update_readme(folder_path, md_files, title):
+    try:
+        readme_file = os.path.join(folder_path, "README.md")
+        with open(readme_file, 'w', encoding='utf-8') as file:
+            file.write(f"# {title}\n\n")
+            for md_file in md_files:
+                file.write(f"* [{md_file['title']}]({md_file['filename']})\n")
+        print(f"README.md updated with hyperlinks to exported markdown files.")
+    except Exception as e:
+        print(f"Error occurred while updating README.md: {e}")
+
+# Main function
 def main():
     # Load configuration from JSON file
     with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-about-config.json') as json_file:
@@ -72,8 +112,17 @@ def main():
         ]
 
         # Scrape and export content for each URL
+        md_files = []
         for url in urls:
-            scrape_and_export(url, folder_path)
+            md_file_info = scrape_page(url, folder_path)
+            if md_file_info:
+                md_files.append(md_file_info)
+
+        # Update or create README.md with hyperlinks to exported markdown files
+        if md_files:
+            update_readme(folder_path, md_files, "About")
+        else:
+            print("No markdown files found to update README.md.")
     else:
         print("Folder path not found in config.")
 
